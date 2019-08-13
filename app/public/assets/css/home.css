@@ -1,0 +1,14 @@
+.home-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: red; */
+    padding: 5%;
+}
+
+#survey-link button{
+    margin: 20px auto;
+    display: block;
+    padding: 10px 25px;
+}

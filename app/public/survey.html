@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Survey</title>
+
+        <!-- bootstrap css -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <!-- fontawesome -->
+        <script src="https://kit.fontawesome.com/e57fa30f49.js"></script>
+
+    </head>
+    <body>
+        
+        <div class="container">   
+            <h1>About You</h1>
+            <form method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name here...">
+                </div>
+                <div class="form-group">
+                    <label for="photo">Photo URL</label>
+                    <input type="text" class="form-control" id="photo" placeholder="http...">
+                </div>
+                <hr>
+
+                <!-- question 0 -->
+                <div class="form-group">
+                    <label for="q0">I enjoy meeting new people.</label>
+                    <select class="form-control" id="q0">
+                        <option value=""></option>
+                        <option value="1">Strongly Disagree</option>
+                        <option value="2">Disagree</option>
+                        <option value="3">Not Sure</option>
+                        <option value="4">Agree</option>
+                        <option value="5">Strongly Agree</option>
+                    </select>
+                </div>
+
+                <!-- question 1 -->
+                <div class="form-group">
+                    <label for="q1">I usually conceal my feelings.</label>
+                    <select class="form-control" id="q1">
+                        <option value=""></option>
+                        <option value="1">Strongly Disagree</option>
+                        <option value="2">Disagree</option>
+                        <option value="3">Not Sure</option>
+                        <option value="4">Agree</option>
+                        <option value="5">Strongly Agree</option>
+                    </select>
+                </div>
+                
+                <!-- question 2 -->
+                <div class="form-group">
+                    <label for="q2">I would rather spend a quiet evening at home than go out to a party.</label>
+                    <select class="form-control" id="q2">
+                        <option value=""></option>
+                        <option value="1">Strongly Disagree</option>
+                        <option value="2">Disagree</option>
+                        <option value="3">Not Sure</option>
+                        <option value="4">Agree</option>
+                        <option value="5">Strongly Agree</option>
+                    </select>
+                </div>
+
+                <!-- question 3 -->
+                <div class="form-group">
+                    <label for="q3">When I make plans, I am almost certain to make them work.</label>
+                    <select class="form-control" id="q3">
+                        <option value=""></option>
+                        <option value="1">Strongly Disagree</option>
+                        <option value="2">Disagree</option>
+                        <option value="3">Not Sure</option>
+                        <option value="4">Agree</option>
+                        <option value="5">Strongly Agree</option>
+                    </select>
+                </div>
+
+                <!-- question 4 -->
+                <div class="form-group">
+                    <label for="q4">I would like more challenging things to do in life.</label>
+                    <select class="form-control" id="q4">
+                        <option value=""></option>
+                        <option value="1">Strongly Disagree</option>
+                        <option value="2">Disagree</option>
+                        <option value="3">Not Sure</option>
+                        <option value="4">Agree</option>
+                        <option value="5">Strongly Agree</option>
+                    </select>
+                </div>
+
+                <!-- question 5 -->
+                <div class="form-group">
+                    <label for="q5">In situations where I have to wait, such as a line, I get very restless.</label>
+                    <select class="form-control" id="q5">
+                        <option value=""></option>
+                        <option value="1">Strongly Disagree</option>
+                        <option value="2">Disagree</option>
+                        <option value="3">Not Sure</option>
+                        <option value="4">Agree</option>
+                        <option value="5">Strongly Agree</option>
+                    </select>
+                </div>
+
+                <!-- question 6 -->
+                <div class="form-group">
+                    <label for="q6">I'm a "spender" rather than a "saver."</label>
+                    <select class="form-control" id="q6">
+                        <option value=""></option>
+                        <option value="1">Strongly Disagree</option>
+                        <option value="2">Disagree</option>
+                        <option value="3">Not Sure</option>
+                        <option value="4">Agree</option>
+                        <option value="5">Strongly Agree</option>
+                    </select>
+                </div>
+
+                <!-- question 7 -->
+                <div class="form-group">
+                    <label for="q7">I am good at waiting patiently.</label>
+                    <select class="form-control" id="q7">
+                        <option value=""></option>
+                        <option value="1">Strongly Disagree</option>
+                        <option value="2">Disagree</option>
+                        <option value="3">Not Sure</option>
+                        <option value="4">Agree</option>
+                        <option value="5">Strongly Agree</option>
+                    </select>
+                </div>
+
+                <!-- question 8 -->
+                <div class="form-group">
+                    <label for="q8">I would prefer to be a leader rather than a follower.</label>
+                    <select class="form-control" id="q8">
+                        <option value=""></option>
+                        <option value="1">Strongly Disagree</option>
+                        <option value="2">Disagree</option>
+                        <option value="3">Not Sure</option>
+                        <option value="4">Agree</option>
+                        <option value="5">Strongly Agree</option>
+                    </select>
+                </div>
+
+                <!-- question 9 -->
+                <div class="form-group">
+                    <label for="q9">When I see a problem I prefer to do something about it rather than sit by and let it continue.</label>
+                    <select class="form-control" id="q9">
+                        <option value=""></option>
+                        <option value="1">Strongly Disagree</option>
+                        <option value="2">Disagree</option>
+                        <option value="3">Not Sure</option>
+                        <option value="4">Agree</option>
+                        <option value="5">Strongly Agree</option>
+                    </select>
+                </div>
+
+
+                <button type="submit" class="btn btn-primary" id="submit">Submit Survey</button>
+            </form>
+        </div>
+
+        <!-- modal where the result will appear -->
+        <div class="modal" id="modal-container" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-title"></h5>
+                </div>
+                <div class="modal-body">
+                    <h4 id="friend-name"></h4>
+                    <img id="friend-photo" src="">
+                    <p id="error-message"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="close-btn" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+                </div>
+            </div>
+        </div>
+ 
+        <footer class="footer">
+            <div class="container">
+                <a href="/api/friends">API Table Link</a>
+            </div>
+        </footer>
+          
+
+        <!-- bootstrap js -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+        <!-- jQuery CDN -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+        <!-- main code for this form -->
+        <script src="assets/js/app.js"></script>
+    </body>
+</html>
