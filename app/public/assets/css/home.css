@@ -36,7 +36,7 @@ html, body{
 }
 h1{
     padding: 2%;
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid #FFFFFF;
     text-align: center;
     width: 80%;
     display: block;
@@ -46,14 +46,38 @@ h1{
     font-size: 5em;
     font-weight: bold;
     letter-spacing: 2.5px;
+    text-shadow: 2px 2px 5px black;
 }
 h2{
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     line-height: 40px;
+    text-shadow: 2px 2px 5px black;
 }
 #survey-link button{
     margin: 20px auto;
     display: block;
     padding: 10px 25px;
+}
+#survey-link:hover{
+    text-decoration: none;
+}
+#survey-link button:hover{
+    opacity: 0.9;
+}
+footer{
+    background-color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    padding: 3%;
+    color: #FFFFFF;
+    font-size: 0.7em;
+}
+footer a, footer a:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 5px;
+}
+span{
+    float: right;
 }

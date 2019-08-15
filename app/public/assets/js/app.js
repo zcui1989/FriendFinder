@@ -40,7 +40,7 @@ $('#submit').on('click', (event) => {
             //shows result photo
             $('#friend-photo').attr('src', data.photo);
             //modal container will appear
-            $('#modal-container').toggle();
+            $('#modal-container').show();
 
             $('#error-message').hide();
             // close button function
@@ -69,6 +69,7 @@ $('#submit').on('click', (event) => {
         $('#modal-container').toggle();
         //title
         $('#modal-title').text('Submission Failed.');
+        $('#friend-photo').hide();
         //shows error message
         $('#error-message').text('Please make sure that every field is not empty.');
         // close button function
